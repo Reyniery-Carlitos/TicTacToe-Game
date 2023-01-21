@@ -1,0 +1,54 @@
+.board {
+     display: grid;
+     grid-template-columns: repeat(3, 100px);
+     grid-template-rows: repeat(3, 100px);
+     gap: 5px;
+}
+
+.board button {
+     background-color: rgb(240, 240, 240);
+     -webkit-box-shadow: 0px 0px 37px -29px rgba(0, 0, 0, 0.75);
+     -moz-box-shadow: 0px 0px 37px -29px rgba(0, 0, 0, 0.75);
+     box-shadow: 0px 0px 37px -29px rgba(0, 0, 0, 0.75);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100%;
+     width: 100%;
+}
+
+
+.board button h2 {
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 2rem;
+     font-weight: normal;
+}
+
+.footer {
+     margin-top: 10px;
+}
+
+.modal {
+     position: absolute;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+     background-color: rgba(157, 157, 157, 0.384);
+     height: 170px;
+     width: 310px;
+     top: 150px;
+     font-size: 1rem;
+     color: red;
+     z-index: 10;
+}
+
+.board-dark button {
+     background-color: #2C3E50;
+     transition: 0.5s ease all;
+}
+
+.board-dark button h2 {
+     color: #fff;
+}

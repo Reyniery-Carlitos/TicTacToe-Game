@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  /* grid-template-columns: 80px repeat(2, 110px); */
+  /* display: flex;
+  flex-direction: row; */
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+
+.header h1 {
+  font-size: 1.5rem;
+}
+
+.header div {
+  padding: 10px;
+}
+
+span {
+  color: red;
+}
